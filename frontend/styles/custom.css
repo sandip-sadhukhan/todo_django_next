@@ -1,0 +1,30 @@
+.todo {
+  cursor: pointer;
+  /* transition: 0.2s all; */
+}
+.todo:hover {
+  background-color: #f0f0f0;
+}
+
+.todo-text {
+  padding: 5px 10px;
+}
+
+.todo-text-danger:hover {
+  background: #f0a0a0;
+}
+.todo-text-success:hover {
+  background: #a0f0a0;
+}
+
+.spinner-wrapper {
+  height: 300px;
+  position: relative;
+}
+
+.spinner-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
